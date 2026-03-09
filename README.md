@@ -2,7 +2,7 @@
 
 ## Description
 Omnes MarketPlace est une plateforme e-commerce développée dans le cadre du **Projet Programmation Web APP 2026**.  
-Le site permet aux utilisateurs d’acheter et de vendre des articles en ligne selon plusieurs modes de vente : **achat immédiat, négociation vendeur-client ou enchères **.
+Le site permet aux utilisateurs d’acheter et de vendre des articles en ligne selon plusieurs modes de vente : achat immédiat, négociation vendeur-client ou enchères .
 
 ---
 
