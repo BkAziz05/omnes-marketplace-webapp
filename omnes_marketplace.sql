@@ -250,19 +250,19 @@ CREATE TABLE `notification` (
 
 -- Administrateur (mot de passe : Admin1234!)
 INSERT INTO `administrateur` (`nom`, `prenom`, `email`, `mot_de_passe`) VALUES
-('Dupont', 'Jean', 'admin@omnes-marketplace.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G');
+('Dupont', 'Jean', 'admin@omnes-marketplace.fr', '$2y$12$IDgsH7MOQzQjzxmmhs95T.5ogKuEJetJ0es6Bb9EAb8/K4uOAuk7y');
 
 -- Vendeurs (mot de passe : Vendeur1234!)
 INSERT INTO `vendeur` (`pseudo`, `nom`, `prenom`, `email`, `mot_de_passe`, `statut_compte`, `idAdmin`) VALUES
-('MarcAntiques', 'Martin', 'Marc', 'marc.martin@email.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G', 'actif', 1),
-('SophieLux', 'Leclerc', 'Sophie', 'sophie.leclerc@email.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G', 'actif', 1),
-('ThomasShop', 'Bernard', 'Thomas', 'thomas.bernard@email.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G', 'actif', 1);
+('MarcAntiques', 'Martin', 'Marc', 'marc.martin@email.fr', '$2y$12$4uNztn9KPPmMDjEEjpV2AenU/n0dtIxIrja2JpZdVBgMwIX68TvhG', 'actif', 1),
+('SophieLux', 'Leclerc', 'Sophie', 'sophie.leclerc@email.fr', '$2y$12$4uNztn9KPPmMDjEEjpV2AenU/n0dtIxIrja2JpZdVBgMwIX68TvhG', 'actif', 1),
+('ThomasShop', 'Bernard', 'Thomas', 'thomas.bernard@email.fr', '$2y$12$4uNztn9KPPmMDjEEjpV2AenU/n0dtIxIrja2JpZdVBgMwIX68TvhG', 'actif', 1);
 
 -- Acheteurs (mot de passe : Acheteur1234!)
 INSERT INTO `acheteur` (`nom`, `prenom`, `email`, `mdp`, `adresse`, `NumTelephone`, `clause_acceptee`) VALUES
-('Dubois', 'Alice', 'alice.dubois@email.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G', '12 Rue de la Paix, 75001 Paris', '0612345678', 1),
-('Moreau', 'Pierre', 'pierre.moreau@email.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G', '5 Avenue des Fleurs, 69001 Lyon', '0698765432', 1),
-('Lambert', 'Camille', 'camille.lambert@email.fr', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uHxL7z2/G', '8 Boulevard Haussmann, 75008 Paris', '0645678901', 0);
+('Dubois', 'Alice', 'alice.dubois@email.fr', '$2y$12$1eMx5b3ScnQDoaneYKa0UOR5rJ7zBW7yqejqjE91xHTETkJySxCvC', '12 Rue de la Paix, 75001 Paris', '0612345678', 1),
+('Moreau', 'Pierre', 'pierre.moreau@email.fr', '$2y$12$1eMx5b3ScnQDoaneYKa0UOR5rJ7zBW7yqejqjE91xHTETkJySxCvC', '5 Avenue des Fleurs, 69001 Lyon', '0698765432', 1),
+('Lambert', 'Camille', 'camille.lambert@email.fr', '$2y$12$1eMx5b3ScnQDoaneYKa0UOR5rJ7zBW7yqejqjE91xHTETkJySxCvC', '8 Boulevard Haussmann, 75008 Paris', '0645678901', 0);
 
 -- Catégories
 INSERT INTO `categorie` (`libelle`, `type_marchandise`) VALUES
