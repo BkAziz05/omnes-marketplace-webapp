@@ -1,0 +1,8 @@
+config/config.php
+uploads/articles/*
+uploads/profiles/*
+!uploads/articles/.gitkeep
+!uploads/profiles/.gitkeep
+.DS_Store
+Thumbs.db
+*.log
